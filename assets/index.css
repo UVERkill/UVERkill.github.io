@@ -61,7 +61,9 @@ body {
 }
 
 .proj-img-3 { /* cmpm170 */
-	background-color: #0059B1;
+	background-image: url("cmps170.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .proj-img-4 { /* film170 */
@@ -225,7 +227,12 @@ body {
 /* contact */
 #contact {
 	display: none;
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
 }
+
+
 
 /* other css */
 @-webkit-keyframes spin{
