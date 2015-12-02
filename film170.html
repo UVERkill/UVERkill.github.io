@@ -4,19 +4,67 @@
 		<title>Film 170 Projects</title>
 		<link rel="shortcut icon" href="assets/puddi.png">
 		<link href="assets/film170/film.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="assets/film170/film.js" type="text/javascript"></script>
 		<meta name="description" content="Compilation of projects from Film170 (Fall 2015)">
 	</head>
 	<body>
-		<p>Please excuse the lack of formatting as of today (10/7/2015), it will look nicer next week</p>
-		<h2><a href="http://people.ucsc.edu/~mimlowe/project1/one.html">Labyrinth Project</a></h2>
-		<p>October 7, 2015</p>
-		<p><strong>Project Statement</strong></p>
-		<p>Through the technological advances in the past century, more and more parts of our daily life is shifting from the real world to the digital world. Objects like newspapers, books, and photographs have all been given a digital form that can be easily viewed and shared at the click of a mouse. These objects, once physical entities, are now losing their material form, "[their] presence in time and space, [their] unique existence at the place where it happens to be" (Benjamin, 3) in order to live up to the rapid pace of our technology filled lifestyles. These objects are losing what Walter Benjamin calls "the aura of the work of art". In the past, art something that was drawn or painted on a canvas at some place and some time. Once completed, the piece of art was an unique object in the world. As we enter the digital age, art can now be easily reproduced, either through photographs of unique artworks, or artworks drawn on a computer screen and saved digitally as a combination of binary numbers. Despite losing some of its uniqueness, art can now be easily distributed and shared for all to view.</p>
-		<p>I believe that the technological age has definitely changed our perception of art. To demonstrate this, our project consists of a labyrinth of images and inspirational quotes, linked together using hypertext. Some of the images correctly depict the original source of the quote while others are misattributed. This is to mirror the idea that digital forms of art and media have lost its uniqueness when viewed online since it no longer has an attributed time and place much like how the misattributed quotes can be posted an infinite amount of different times on the Internet.</p>
-		<p>Hypertext serves as a way to link different things together through words as well as images, videos, or sounds. Humans are able to click on elements on webpages to view other related pages of their choice. At first glance, a user may have this preconception that the quotes are directly said by the displayed character since we chose combinations that would seem believable. As the user traverses through the pages, they soon realize that most quotes actually have no direct connection to the character. This is done to question the idea of online authorship - can we believe everything on the Internet to be true or factual? Our project randomly links words to other pages, but if I were to relink the pages, I would want the chosen word or image to be related to the next page. It was interesting how we were to make a labyrinth or maze - something that has a definite beginning and end - using hypertext - something that has no endpoints. The Internet complements the real world as a way to connect people around the world through digital media.</p>
-		<p><strong>Prototype Documentation</strong></p>
-		<a href="assets/film170/p1_1.JPG">Theme Planning</a>
-		<a href="assets/film170/p1_3.JPG">Planning Continued</a>
-		<a href="assets/film170/p1_2.JPG">Linking Map</a>
+		<h2>FILM 170</h2>
+
+		<div id="projectwheel">
+			<div id="spinner">
+				<div class="proj-item proj-item-1"></div>
+				<div class="proj-item proj-item-2"></div>
+				<div class="proj-item proj-item-3"></div>
+				<div class="proj-item proj-item-4"></div>
+				<div class="proj-item proj-item-5"></div>
+				<div class="proj-item proj-item-6"></div>
+			</div>
+		</div>
+
+		<div>
+			<h2><a href="http://people.ucsc.edu/~mimlowe/project1/one.html">Labyrinth</a></h2>
+			<p>October 7, 2015</p>
+			<p><strong>Project Statement</strong></p>
+			<p>Through the technological advances in the past century, more and more parts of our daily life is shifting from the real world to the digital world. Objects like newspapers, books, and photographs have all been given a digital form that can be easily viewed and shared at the click of a mouse. These objects, once physical entities, are now losing their material form, "[their] presence in time and space, [their] unique existence at the place where it happens to be" (Benjamin, 3) in order to live up to the rapid pace of our technology filled lifestyles. These objects are losing what Walter Benjamin calls "the aura of the work of art". In the past, art something that was drawn or painted on a canvas at some place and some time. Once completed, the piece of art was an unique object in the world. As we enter the digital age, art can now be easily reproduced, either through photographs of unique artworks, or artworks drawn on a computer screen and saved digitally as a combination of binary numbers. Despite losing some of its uniqueness, art can now be easily distributed and shared for all to view.</p>
+			<p>I believe that the technological age has definitely changed our perception of art. To demonstrate this, our project consists of a labyrinth of images and inspirational quotes, linked together using hypertext. Some of the images correctly depict the original source of the quote while others are misattributed. This is to mirror the idea that digital forms of art and media have lost its uniqueness when viewed online since it no longer has an attributed time and place much like how the misattributed quotes can be posted an infinite amount of different times on the Internet.</p>
+			<p>Hypertext serves as a way to link different things together through words as well as images, videos, or sounds. Humans are able to click on elements on webpages to view other related pages of their choice. At first glance, a user may have this preconception that the quotes are directly said by the displayed character since we chose combinations that would seem believable. As the user traverses through the pages, they soon realize that most quotes actually have no direct connection to the character. This is done to question the idea of online authorship - can we believe everything on the Internet to be true or factual? Our project randomly links words to other pages, but if I were to relink the pages, I would want the chosen word or image to be related to the next page. It was interesting how we were to make a labyrinth or maze - something that has a definite beginning and end - using hypertext - something that has no endpoints. The Internet complements the real world as a way to connect people around the world through digital media.</p>
+			<p><strong>Prototype Documentation</strong></p>
+			<a href="assets/film170/p1_1.JPG">Theme Planning</a>
+			<a href="assets/film170/p1_3.JPG">Planning Continued</a>
+			<a href="assets/film170/p1_2.JPG">Linking Map</a>
+		</div>
+
+		<div>
+			<h2>Mapping</h2>
+			<p>October 14, 2015</p>
+			<p><strong>Project Statement</strong></p>
+			<p>There are multiple ways to display digital media works on the web. One could display his or her work in a linear fashion, making use of HTML drop down selection menus or just plain text lists displayed on a page. However, those formats lack in visual presentation of work and promote a sense of linearity when users are looking at the page. In order to create a display scheme that promotes non-linearity while maintaining hypertexual links to other digital media works, I designed and prototyped a display wheel that shows a preview of the project within the circle. Users are able to click on these circles in any order, which loads the detailed description and links in a box below. The graphics are purely done with HTML divs with CSS formatting. A JavaScript function brings the page to life by changing the CSS to animate the display. The bottom most circle will be the current project being viewed.</p>
+			<p>Why did I choose to make a wheel? Circular objects give a sense of non-linearity because there's no real beginning and end. A user can choose and view the projects that interest them the most. Furthermore, circles give this feeling of connectivity - things that are positioned on the border of the circle are connected in some way.</p>
+			<p>Below I have some pictures of hand drawn prototypes. With a bit of calculations, I'm able to position the circles relative to the circle so that all elements rotate simultaneously. Currently, the text below the preview wheel does not update dynamically based on which circle the user chooses; there are plans to fix this issue in the following weeks. Additionally, future iterations of this display wheel may include better formatting of the text as well as moving the title of the work into the center of the display wheel.</p>
+			<p><strong>Prototype Documentation</strong><p>
+			<a href="assets/film170/p2_1.jpg">Initial Draft</a>
+			<a href="assets/film170/p2_2.jpg">Calculations</a>
+		</div>
+
+		<div>
+			<h2><a href="film170/processing.html">Processing</a></h2>
+			<p>October 21, 2015</p>
+			<p><strong>Project Statement</strong></p>
+			<p>On the web, there are many ways that text can be viewed. News sites like ESPN or online encyclopedias like Wikipedia display the text in article form which is just a block of text. Other forms of text may include infographics which combine text and graphical data or text paired with videos to enhance the user experience. For this project, I created a simple interactive page that displays a nursury rhyme we all learned as children - Twinkle Twinkle Little Star. Taking this text, I wanted to bring the text to life without the aid of images or video. Since the poem is literally about shining stars, I thought to create a page that had blinking text to simulate looking at bright stars in the night sky. The first interation had four lines of text that faded in and out; however, it did not look natural for there to only be four elements representing shining stars, so I broke down the text further into ten segments to add more "star" elements to the page. As for placement, random locations were generated each time a star "faded away" to give a sense that there are a lot more than ten stars in the sky (which is supposed to simulate the billions of stars in the universe). With the main display completed, a problem I ran into was that it was difficult to follow along with the text since the sections were given a random position on the screen. To make it easier to read the text in the order it is intended, one phrase of the poem is highlighted in yellow at one time. The user can click anywhere on the page to highlight and easily read the next segment of text without feeling lost. Overall, I took the text of a simple poem and organized in such a way that the text itself had both texual and visual meanings.</p>
+			<p><strong>Prototype Documentation</strong></p>
+			<a href="assets/film170/p3_1.jpg">Idea and Calculations</a>
+		</div>
+
+		<div>
+			<h2><a href="film170/animation/animation.html">Animation</a></h2>
+			<p>November 17, 2015</p>
+			<p><strong>Project Statement</strong></p>
+			<p>While beginning this animation project, I found it quite difficult to choose an object to animate. I wanted to choose an object that had great significance in my everyday life. We live in a world today where technology is so vast and advanced that there are far too many objects that I consider to be important enough that it would be difficult to live without. Laying in bed one night, I decided that I would use my cellphone as the object or subject for animation.</p>
+			<p>Despite the fact that my smartphone has the ability to take pictures, it can't take a picture of itself, so I had to use a regular camera to take a picture of myself holding the phone. Using that picture, I added some filters using GIMP, a free image editing software, to make the image look more cartoon-like. With some basic layer duplication and manipulation, I made the phone screen display the image, which displays a phone with the image, and so on, giving the illusion that the image had infinite depth. Animating this image took advantage of CSS3 animations which could be called from a JavaScript script. Currently, the animation only works in Chrome and other browsers with webkit-animation support.</p>
+			<p>This project was mainly inspired by infinite GIFs that people post to the internet. I wanted to portray the idea that technology, such as smartphones, are such an integral part of our life that what's shown on the screen is almost the same as reality. When we wake up in the morning, looking at live feeds such as Twitter or news sites like Reddit give us the most up to date information about the world we live in, even if the event that occurred is not one that is local. The virtual world displayed on a phone or computer screen is just an extension of the real world. Sometimes we are so engrossed by technology that we forgo real life interactions for virtual interactions with others. This animation aims to show that the real world and the virtual world are seamlessly linked with one another.</p>
+			<p><strong>Prototype Documentation</strong></p>
+			<a href="assets/film170/p6_1.jpg">Animation Plan</a>
+		</div>
 	</body>
 </html>

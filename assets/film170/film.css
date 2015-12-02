@@ -1,0 +1,115 @@
+html body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', Arial, sans-serif;
+	overflow-x: hidden;
+}
+
+body {
+	background: rgba(248, 248, 248, 1.0);
+}
+
+#projectwheel {
+	position: relative;
+	display: block;
+	width: 420px;
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.75s ease-in-out;
+}
+
+#spinner {
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	/* http://www.colorhexa.com/0080ff shades +-5/10 */
+	/* background: #0080FF; /* base color */
+	border-top: 10px solid #00274E; /* darkest */
+	border-right: 10px solid #0059B1;
+	border-bottom: 10px solid #62B1FF;
+	border-left: 10px solid #C4E2FF; /* lightest */
+}
+
+.proj-item {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: gray;
+}
+
+.proj-item-1 {
+	margin: -50px 150px;
+}
+
+.proj-item-2 {
+	margin: 50px -20px;
+}
+
+.proj-item-3 {
+	margin: 250px -20px;
+}
+
+.proj-item-4 {
+	margin: 350px 150px;
+}
+
+.proj-item-5 {
+	margin: 250px 320px;
+}
+
+.proj-item-6 {
+	margin: 50px 320px;
+}
+
+.rotate1 {
+	-webkit-transform: rotateZ(180deg);
+	-moz-transform: rotateZ(180deg);
+	-o-transform: rotateZ(180deg);
+	-ms-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);
+}
+
+.rotate2 {
+	-webkit-transform: rotateZ(240deg);
+	-moz-transform: rotateZ(240deg);
+	-o-transform: rotateZ(240deg);
+	-ms-transform: rotateZ(240deg);
+	transform: rotateZ(240deg);
+}
+
+.rotate3 {
+	-webkit-transform: rotateZ(300deg);
+	-moz-transform: rotateZ(300deg);
+	-o-transform: rotateZ(300deg);
+	-ms-transform: rotateZ(300deg);
+	transform: rotateZ(300deg);
+}
+
+.rotate4 {
+	-webkit-transform: rotateZ(0deg);
+	-moz-transform: rotateZ(0deg);
+	-o-transform: rotateZ(0deg);
+	-ms-transform: rotateZ(0deg);
+	transform: rotateZ(0deg);
+}
+
+.rotate5 {
+	-webkit-transform: rotateZ(60deg);
+	-moz-transform: rotateZ(60deg);
+	-o-transform: rotateZ(60deg);
+	-ms-transform: rotateZ(60deg);
+	transform: rotateZ(60deg);
+}
+
+.rotate6 {
+	-webkit-transform: rotateZ(120deg);
+	-moz-transform: rotateZ(120deg);
+	-o-transform: rotateZ(120deg);
+	-ms-transform: rotateZ(120deg);
+	transform: rotateZ(120deg);
+}
