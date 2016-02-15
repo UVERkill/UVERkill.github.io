@@ -28,10 +28,10 @@ body {
 	margin: 0 auto;
 	/* http://www.colorhexa.com/0080ff shades +-5/10 */
 	/* background: #0080FF; /* base color */
-	border-top: 10px solid #00274E; /* darkest */
-	border-right: 10px solid #0059B1;
-	border-bottom: 10px solid #62B1FF;
-	border-left: 10px solid #C4E2FF; /* lightest */
+	border-top: 10px solid #202020; /* darkest */
+	border-right: 10px solid #404040;
+	border-bottom: 10px solid #606060;
+	border-left: 10px solid #808080; /* lightest */
 }
 
 .proj-item {
@@ -39,31 +39,36 @@ body {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background: gray;
 }
 
 .proj-item-1 {
 	margin: -50px 150px;
+	background: #FF0000;
 }
 
 .proj-item-2 {
 	margin: 50px -20px;
+	background: #FF8000;
 }
 
 .proj-item-3 {
 	margin: 250px -20px;
+	background: #FFFF00;
 }
 
 .proj-item-4 {
 	margin: 350px 150px;
+	background: #00FF00;
 }
 
 .proj-item-5 {
 	margin: 250px 320px;
+	background: #0080FF;
 }
 
 .proj-item-6 {
 	margin: 50px 320px;
+	background: #FF00FF;
 }
 
 .rotate1 {
@@ -112,4 +117,51 @@ body {
 	-o-transform: rotateZ(120deg);
 	-ms-transform: rotateZ(120deg);
 	transform: rotateZ(120deg);
+}
+
+#projectdisplay {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#proj1 {
+	display: none;
+	border: 5px solid #FF0000;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#proj2 {
+	display: none;
+	border: 5px solid #FF8000;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#proj3 {
+	display: none;
+	border: 5px solid #FFFF00;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#proj4 {
+	display: none;
+	border: 5px solid #00FF00;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#proj5 {
+	display: none;
+	border: 5px solid #0080FF;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+#proj6 {
+	display: none;
+	border: 5px solid #FF00FF;
+	border-radius: 25px;
+	padding: 20px;
 }
