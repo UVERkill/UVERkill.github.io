@@ -1,0 +1,33 @@
+html {
+	width: 1053px;
+	background-color: black;
+}
+
+#container {
+	width: 100%;
+}
+
+#column-left {
+	float: left;
+	width: 33%;
+	height: 600px;
+}
+
+#column-right {
+	float: right;
+	width: 33%;
+	height: 600px;
+}
+
+#column-center {
+	display: inline-block;
+	width: 33%;
+	height: 500px;
+	background-image: url(mickeytimeline.png);
+	margin-top: 50px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
