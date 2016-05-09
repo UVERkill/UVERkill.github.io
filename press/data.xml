@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>Birds at Arms</title>
+	<founding-date>January 4, 2016</founding-date>
+	<website>http://www.birdsatarms.com/</website>
+	<based-in>Santa Cruz, California</based-in>
+	
+	<press-contact>squabblesquad@gmail.com</press-contact>
+	<phone></phone>
+	<address>
+		<line>1156 High St, Santa Cruz, CA 95064</line>
+	</address>
+
+	<socials>
+		<social>
+			<name>Dev Blog</name>
+			<link>birdsatarms.tumblr.com/</link>
+		</social>
+		<social>
+			<name>Facebook</name>
+			<link>https://www.facebook.com/Birds-At-Arms-478889135605808/</link>
+		</social>
+		<social>
+			<name>Twitter</name>
+			<link>twitter.com/BirdsAtArms</link>
+		</social>
+		<social>
+			<name>Twitch</name>
+			<link>twitch.tv/birdsatarms</link>
+		</social>
+	</socials>
+
+	<description>	
+		We are the Squabble Squad, a new indie game studio dedicated to creating the next game Birds at Arms.
+	</description>
+		
+	<histories>
+		<history>
+			<header>Early history</header>
+			<text>Birds at Arms began as an idea pitched for the UCSC senior game design course.</text>
+		</history>
+		<history>
+			<header>After that</header>
+			<text>We began making the idea a reality.</text>
+		</history>
+	</histories>
+		
+	<trailers>
+		<trailer>
+			<name>COMING SOON...</name>
+			<youtube></youtube>
+		</trailer>
+	</trailers>
+	
+	<awards>
+	</awards>
+
+	<quotes>
+	</quotes>
+
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<additionals>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Ethan Shimooka</person>
+			<role>Lead Designer</role>
+		</credit>
+		<credit>
+			<person>Vincent Chen</person>
+			<role>Engine Developer</role>
+		</credit>
+		<credit>
+			<person>Blake Williams</person>
+			<role>Engine Developer</role>
+		</credit>
+		<credit>
+			<person>Ricardo Murillo</person>
+			<role>Engine Developer</role>
+		</credit>
+		<credit>
+			<person>Brandon Jarvinen</person>
+			<role>Engine Developer</role>
+		</credit>
+		<credit>
+			<person>Gavin Mack</person>
+			<role>Network Developer</role>
+		</credit>
+		<credit>
+			<person>Vincent Moudy</person>
+			<role>Network Developer</role>
+		</credit>		
+		<credit>
+			<person>Poureya Sohbati</person>
+			<role>Network Developer</role>
+		</credit>
+		<credit>
+			<person>Keenan Hampton</person>
+			<role>Artist</role>
+		</credit>
+		<credit>
+			<person>Cris Doi</person>
+			<role>Artist</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>squabblesquad@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>https://twitter.com/BirdsAtArms</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>https://www.facebook.com/Birds-At-Arms-478889135605808/</link>
+		</contact>
+	</contacts>
+</game>
